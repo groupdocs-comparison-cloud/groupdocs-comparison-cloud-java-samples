@@ -1,6 +1,6 @@
 ## GroupDocs.Comparison Cloud SDK for Java
 
-[GroupDocs.Comparison Cloud SDK for Java](https://products.groupdocs.cloud/comparison/java) enables your Java applications to compare two ‎same format documents to find differences between them make a resultant file and allow you to ‎accept or reject the retrieved changes. Our Document Comparison SDK for Java allows easy integration ‎into your existing applications, so that your end-users can compare documents, spreadsheets, ‎presentations, Microsoft Visio diagrams, emails, and files of many other formats. In order to use the features of the API in an easy and efficient manner in your Java application without going into the underlying details of handling the HTTP requests and responses, we have developed the SDK for Java, which is not only easy to incorporate but can also be customized to suit your needs.
+[GroupDocs.Comparison Cloud SDK for Java](https://products.groupdocs.cloud/comparison/java) has been developed to provides a one-stop-shop solution for comparing documents in all common business formats. Supported file types include PDF, Microsoft Word documents, Excel spreadsheets, PowerPoint presentations, plain text, and others. The API is highly scalable, easily customizable and helps the developers to utilize all the features of the API in an efficient and easier way. With this single API.
 
 This repository contains [Examples](Examples) projects for [GroupDocs.Comparison Cloud SDK for Java](https://products.groupdocs.cloud/comparison/java) to help you learn and write your own applications.
 
