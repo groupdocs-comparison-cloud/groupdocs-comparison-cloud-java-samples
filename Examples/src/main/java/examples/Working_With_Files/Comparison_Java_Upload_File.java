@@ -16,8 +16,8 @@ public class Comparison_Java_Upload_File {
 		FileApi apiInstance = new FileApi(Utils.AppSID, Utils.AppKey);
 		try {
 			File fileStream = new File(
-					Paths.get("src\\main\\resources").toAbsolutePath().toString() + "\\Comparisondocs\\one-page.docx");
-			UploadFileRequest request = new UploadFileRequest("Comparisondocs\\one-page1.docx", fileStream,
+					Paths.get("src\\main\\resources").toAbsolutePath().toString() + "\\Comparisondocs\\source.docx");
+			UploadFileRequest request = new UploadFileRequest("Comparisondocs\\source.docx", fileStream,
 					Utils.MYStorage);
 			FilesUploadResult response = apiInstance.uploadFile(request);
 			System.out.println("Expected response type is FilesUploadResult: " + response.getUploaded().size());
