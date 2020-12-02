@@ -1,8 +1,11 @@
 package examples;
 
 import examples.AdvancedUsage.AcceptOrRejectChanges;
+
+
 import examples.AdvancedUsage.*;
 import examples.AdvancedUsage.CompareMultipleDocuments.*;
+import examples.AdvancedUsage.Revisions.*;
 import examples.AdvancedUsage.SaveOptions.*;
 import examples.BasicUsage.*;
 import examples.BasicUsage.CompareDifferentFormats.*;
@@ -32,6 +35,9 @@ public class RunExamples {
 		SetMetadata.main(args);
 		SetPassword.main(args);
 		AcceptOrRejectChanges.main(args);
+
+		GetListOfRevisions.main(args);
+		ApplyRevisions.main(args);
 
 		System.out.println("Completed");
 	}	
