@@ -31,7 +31,7 @@ public class GetListOfChanges {
 
 			System.out.println("Changes count: " + changes.size());
 		} catch (ApiException e) {
-			System.err.println("Exception while calling InfoApi:");
+			System.err.println("Exception while calling CompareApi:");
 			e.printStackTrace();
 		}
 	}

@@ -42,7 +42,7 @@ public class GetChangesCoordinates {
 
 			System.out.println("...");
 		} catch (ApiException e) {
-			System.err.println("Exception while calling InfoApi:");
+			System.err.println("Exception while calling CompareApi:");
 			e.printStackTrace();
 		}
 	}

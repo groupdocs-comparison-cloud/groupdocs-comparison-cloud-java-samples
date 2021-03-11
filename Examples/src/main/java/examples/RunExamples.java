@@ -38,6 +38,8 @@ public class RunExamples {
 
 		GetListOfRevisions.main(args);
 		ApplyRevisions.main(args);
+		AcceptAllRevisions.main(args);
+		RejectAllRevisions.main(args);
 
 		System.out.println("Completed");
 	}	

@@ -39,7 +39,7 @@ public class AcceptOrRejectChanges {
 
 			System.out.println("Output file link: " + response.getHref());
 		} catch (ApiException e) {
-			System.err.println("Exception while calling InfoApi:");
+			System.err.println("Exception while calling CompareApi:");
 			e.printStackTrace();
 		}
 	}

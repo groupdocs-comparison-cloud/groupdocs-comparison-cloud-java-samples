@@ -25,7 +25,7 @@ public class GetListOfRevisions {
 
 			System.out.println("Revisions count: " + rInfos.size());
 		} catch (ApiException e) {
-			System.err.println("Exception while calling InfoApi:");
+			System.err.println("Exception while calling ReviewApi:");
 			e.printStackTrace();
 		}
 	}
